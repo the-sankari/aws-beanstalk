@@ -33,6 +33,31 @@
   padding: 0;
 }
 
+.projects, .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #a7c6e7;
+    color: white;
+    text-align: center;
+
+}
+
+.team-members li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.team-members li{
+    list-style: none;
+    padding: 1rem;
+    border-bottom: 1px solid #fff;
+    background-color: #222;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .hero-title {

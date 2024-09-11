@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
   return (
-    <div>
+    <div className='projects'>
       <h1>Our Projects</h1>
       <ul>
         <li>React App Development</li>
